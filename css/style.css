@@ -1,0 +1,74 @@
+/* RESET */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;       /* 1REM = 10px | calc (10 * 100 )/ 16 = 62,5 */
+    
+    /* COLOR PALETE */
+    --primary-green : hsl(170, 100%, 26%);
+    --primary-green-light : hsl(148, 23%, 89%);
+    --primary-green-ultralight : hsl(180, 14%, 97%);
+
+    --secondary-gray-headline : hsl(210, 11%, 15%);
+    --secondary-gray-paragraph : hsl(210, 9%, 31%);
+    --secondary-white : hsl(0, 0%, 100%);
+
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+ 
+header {
+    width: 37.5rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.4rem;
+    line-height: 130%; 
+    color: var( --secondary-gray-headline);
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--primary-green);
+    margin-top: 4.1rem;
+}
+
+p {
+    color: var(--secondary-gray-paragraph);
+    margin-bottom: 3.2rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 0 auto 6rem auto ;
+    width: 26.3rem;
+    height: 5.2rem;
+   
+    border: none;
+    border-radius: 4rem;
+   
+    background: var(--primary-green);
+    color: var(--secondary-white);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+svg.icon {
+    fill :  var(--secondary-white);
+}
