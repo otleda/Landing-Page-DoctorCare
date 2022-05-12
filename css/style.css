@@ -35,7 +35,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
     text-align: center;
-   
+  /*   overflow: overlay; */
 
 }
 
@@ -84,7 +84,7 @@ nav.scroll > div > button.btn-open > svg path {
 }
 
 /*-----------------HEADER------------------- */
-header::before {
+/* header::before {
     content : "";
     position : absolute;
     top: 0;
@@ -94,7 +94,7 @@ header::before {
     height: calc(108rem + var(--nav-height));
     background: var(--primary-green-ultralight);
     z-index: -1;
-}
+} */
 header {
     margin-top: calc(4.1rem + var(--nav-height));
 }
